@@ -5,7 +5,7 @@ Runnable examples for the **[AutoScout24 Cars Scraper — EU Prices & Specs | fr
 Scrape AutoScout24 car listings across DE/FR/IT/NL/BE by make, model, price, year, mileage and fuel type. Returns 30+ fields: title, price, year, mileage, power, transmission, fuel, body type, seller info, location, images. Pay per result.
 
 ## What you get per record
-see the actor's output schema on the Store page
+`available_now` · `body_type` · `co2_gkm` · `consumption_l100km` · `cross_reference_id` · `engine_cc` · `first_registration` · `fuel` · `image_count` · `images` · `is_conditional_price` · `is_ocs` · `listing_id` · `location_city` · `location_country` · `location_zip` · `make` · `mileage_km` · `model` · `model_group` · `offer_type` · `old_price_formatted` · `page_number` · `parse_confidence` · `power_hp` · `power_kw` · `price_eur` · `price_evaluation` · `price_formatted` · `scraped_at` · `search_country` · `search_make` · `search_model` · `seller_contact_name` · `seller_id` · `seller_name` · `seller_type` · `source` · `thumbnail` · `title` · `transmission` · `url` · `variant` · `warnings` · `year`
 
 ## Quickstart
 1. Get your Apify token: <https://console.apify.com/account/integrations>
@@ -15,6 +15,7 @@ see the actor's output schema on the Store page
 |---|---|
 | Python (`apify-client`) | [`examples/python/run.py`](examples/python/run.py) |
 | JavaScript (`apify-client`) | [`examples/javascript/run.js`](examples/javascript/run.js) |
+| Sample output (real records) | [`examples/sample_output.json`](examples/sample_output.json) |
 
 ## Example input
 ```json
